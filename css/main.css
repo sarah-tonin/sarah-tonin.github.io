@@ -20,11 +20,11 @@ a:hover {
     text-decoration: underline;
 }
 page-title {
-    font-size: 3em;
+    font-size: 2em;
     font-family:'Optima', 'Calibri';
 }
 p {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
 }
