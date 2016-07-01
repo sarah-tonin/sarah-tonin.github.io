@@ -20,12 +20,18 @@ a:hover {
     text-decoration: underline;
 }
 page-title {
-    font-size: 2em;
+    font-size: 16px;
     font-family:'Optima', 'Calibri';
+    text-align: center;
+}
+page-description {
+    font-size: 14px;
+    font-family:'Optima','Calibri';
+    text-align: center;
 }
 p {
-    font-size: 1em;
-    line-height: 1.4em;
+    font-size: 12px;
+    line-height: 14px;
     color: #333;
 }
 footer {
