@@ -7,7 +7,7 @@ search {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 15px;
+    padding: 2px;
     list-style: none;
     font-weight: bold;
 }
