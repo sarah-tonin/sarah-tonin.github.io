@@ -1,6 +1,10 @@
 body {
     margin: 60px auto;
     width: 70%;
+/*    background-image: ; */
+    background-position: center top;
+    background-size: cover;
+    margin: 0;
 }
 
 .input[type=text] {
@@ -43,7 +47,10 @@ page-title {
 page-description {
     font-size: 14px;
     font-family:'Optima','Calibri';
+    border: 1px solid #000;
+    margin: 2px;
     text-align: center;
+    padding: 30px;
 }
 p {
     font-size: 16px;
