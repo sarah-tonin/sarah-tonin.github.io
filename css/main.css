@@ -14,7 +14,7 @@ body {
 }
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
-    width: 100%;
+    width: 25%;
 }
 
 nav ul, footer ul {
@@ -42,14 +42,14 @@ a:hover {
 page-title {
     font-size: 16px;
     font-family:'Optima', 'Calibri';
-    text-align: center;
+    text-align: center; /* this is not working */
 }
 page-description {
     font-size: 14px;
     font-family:'Optima','Calibri';
     border: 1px solid #000;
     margin: 2px;
-    text-align: center;
+    text-align: center; /* in general, center is not loading */
     padding: 30px;
 }
 p {
