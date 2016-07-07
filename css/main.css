@@ -17,8 +17,12 @@ input[type=text]:focus {
     width: 25%;
 }
 
+h1 {
+  color: SteelBlue;
+}
+
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Palatino','Palatino Linotype';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -28,10 +32,6 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-main-tags{
-    color: SteelBlue;
-}
-
 a {
     text-decoration: none;
     color: #999;
@@ -39,31 +39,36 @@ a {
 a:hover {
     text-decoration: underline;
 }
-page-title {
+.navbar-brand{
+  font-family: 'Palatino','Palatino Linotype';
+}
+.page-title {
     font-size: 16px;
     font-family:'Optima', 'Calibri';
-    text-align: center; /* this is not working */
+    text-align: center;
 }
-page-description {
+.page-description {
     font-size: 14px;
     font-family:'Optima','Calibri';
     border: 1px solid #000;
     margin: 2px;
-    text-align: center; /* in general, center is not loading */
+    text-align: center;
     padding: 30px;
 }
 p {
     font-size: 16px;
     line-height: 18px;
     color: #333;
+    font-family: 'Optima', 'Calibri';
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
