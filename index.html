@@ -1,86 +1,146 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-  		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-			<title>Sarah Kearns, Scientist</title>
-		<link rel="stylesheet" type="text/css" href="./css/main.css">
-	</head>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <title>Sarah Kearns, Scientist</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+  </head>
 
 	<body>
-		<!-- <div class="search">
-				<input type="text" name="search" placeholder="search..."/>
-		</div>
-		<nav>
-			<div>
-    				<ul>
-		        		<li><a href="/">home</a></li>
-			        	<li><a href="/about">about</a></li>
-		        		<li><a href="/resume">resume</a></li>
-    				</ul>
-    			</div>
-		</nav>
-		<nav>
-		<div class= main-tags>
-			<ul>
-				<li><a href="/code">code</a></li>
-			        <li><a href="/software">software</a></li>
-		        	<li><a href="/sci-journal">scicomm</a></li>
-		        	<li><a href="/sci-review">reviews</a></li>
-		        </ul>
-		</div>
-		</nav> -->
-	<nav class="navbar navbar-default">
-  		<div class="container-fluid">
-		<div class="navbar-header">
-      		<!--	<a class="navbar-brand" href="#">sarah kearns</a> -->
-    		</div>
-    		<ul class="nav navbar-nav">
-      			<li class="active"><a href="#">home</a></li>
-      			<li><a href="/about">about</a></li>
-      			<li><a href="/resume">resume</a></li>
-      			<li class="dropdown">
-        		<a class="dropdown-toggle" data-toggle="dropdown" href="#">projects
-        		<span class="caret"></span></a>
-        		<ul class="dropdown-menu">
-        			<li><a href="/code">code</a></li>
-        			<li><a href="/software">software</a></li>
-        			<li><a href="/sci-journal">scientific journalism</a></li>
-        			<li><a href="/sci-review">reviews</a></li>
-      			</ul>
-      			</li>
-    		</ul>
-				<form class="navbar-form navbar-right" role="search">
+    <!-- <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+
+    	    </div>
+    	  	  <ul class="nav navbar-nav">
+      	  	  	<li class="active"><a href="#">home</a></li>
+      		  	  <li><a href="/about">about</a></li>
+      			    <li><a href="/resume">resume</a></li>
+        			  <li class="dropdown">
+          		    <a class="dropdown-toggle" data-toggle="dropdown" href="#">projects
+        	  	    <span class="caret"></span></a>
+        		        <ul class="dropdown-menu">
+        			        <li><a href="/code">code</a></li>
+        			        <li><a href="/software">software</a></li>
+        			        <li><a href="/sci-journal">scientific journalism</a></li>
+        			        <li><a href="/sci-review">reviews</a></li>
+      			        </ul>
+      	  		  </li>
+    		    </ul>
+				    <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" id="tfSearch" placeholder="search...">
+              </div>
+              <button type="submit" class="btn btn-default" disabled onclick="alert(search);">submit</button>
+            </form>
+  		    </div> container-fluid
+      </nav>
+  </header> -->
+
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed"
+            data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false">
+
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+
+            <li class="active"><a href="http://sarah-tonin.github.io">Home<span class="sr-only">(current)</span></a></li>
+
+            <!-- about -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false">about<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+
+                <li><a href="/about"><b>about</b></a></li>
+
+                <li role="separator" class="divider"></li>
+                <li><a href="#">resume</a></li>
+                <li><a href="#">education</a></li>
+                <li><a href="#">personal</a></li>
+              </ul>
+            </li>
+
+            <!-- research -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false">research<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+
+                <li><a href="#"><b>research</b></a></li>
+
+                <li role="separator" class="divider"></li>
+                <li><a href="#">past</a></li>
+                <li><a href="#">current</a></li>
+              </ul>
+            </li>
+
+            <!-- projects -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false">projects<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+
+                <li><a href="#"><b>projects</b></a></li>
+
+                <li role="separator" class="divider"></li>
+                <li><a href="#">this site</a></li>
+                <li><a href="#">software</a></li>
+                <li><a href="#">scientific journalism</a></li>
+                <li><a href="#">reviews</a></li>
+              </ul>
+            </li>
+
+          </ul>
+
+          <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
               <input type="text" class="form-control" id="tfSearch" placeholder="Search">
             </div>
             <button type="submit" class="btn btn-default" disabled onclick="alert(search);">Submit</button>
           </form>
-  		</div>
-	</nav>
 
-		<header>
-			<h1 class= "page-title" > sarah's projects </h1>
-			<p class= "page-description"> hello! this website is intended to keep track of and share my progress in various projects such as learning coding languages, the utilization of scientific software, and scientific journalism. feel free to poke around yourself! </p>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+ <h1 class= "page-title" > sarah kearns </h1>
+	    <p class= "page-description"> hello! this website is intended to keep track of and share my progress in various projects such as learning coding languages, the utilization of scientific software, and scientific journalism. feel free to poke around yourself! </p>
 			<p> <b> note: this site is under heavy construction </b> </p>
-		</header>
-		<div class="container">
-    		<div class="blurb">
 
-    		</div>
-    			<p>
+  <div class="container">
+   <div class="blurb">
+	 </div>
+     <p> </p>
+	</div>
 
-    			</p>
-		</div>
-
-		<footer>
-    		<ul>
-        		<li><a href="mailto:sarah.elizabeth.k2@gmail.com">email</a></li>
-        		<li><a href="https://github.com/sarah-tonin">github.com/sarah-tonin</a></li>
+  <footer>
+    <ul>
+      <li><a href="mailto:sarah.elizabeth.k2@gmail.com">email</a></li>
+      <li><a href="https://github.com/sarah-tonin">github.com/sarah-tonin</a></li>
 		</ul>
-		</footer>
+  </footer>
+
 	</body>
 </html>
