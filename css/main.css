@@ -32,10 +32,6 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-.navbar-form{
-  width:15px;
-}
-
 a {
     text-decoration: none;
     color: #999;
@@ -45,6 +41,9 @@ a:hover {
 }
 .navbar-brand{
   font-family: 'Palatino','Palatino Linotype';
+}
+.form-control{
+  width:200px;
 }
 .page-title {
     font-size: 20px;
