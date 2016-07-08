@@ -5,8 +5,8 @@ development, as well as scientific journalism. This will allow me to consolidate
 my relevant academic and work-related interests into one site that will be easy 
 to keep track of and share.
  
-_note: this is not a blog about my social life. I intend to use it primarily as a sort
- of work log_
+_Note: This blog wont be a personal one. I want to use it to primarily for 
+work related projects._
 
 ### Background ###
 
