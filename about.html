@@ -12,9 +12,115 @@
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="./css/navbar.css">
   </head>
+<header>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
 
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed"
+          data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+
+        </button>
+        <!-- <a class="navbar-brand" href="#"></a> -->
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+
+          <li class="active"><a href="http://sarah-tonin.github.io">home<span class="sr-only"></span></a></li>
+
+          <!-- about -->
+
+          <li> <a href="about.html">about</a>
+          </li>
+          <!-- research -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">research<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+
+              <!-- <li><a href="#"><b>research</b></a></li> -->
+
+              <li role="separator" class="divider"></li>
+              <li><a href="/researchpast">past</a></li>
+              <li><a href="/researchcurrent">current</a></li>
+            </ul>
+          </li>
+
+          <!-- projects -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">projects<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+
+              <!-- <li><a href="#"><b>projects</b></a></li> -->
+
+              <li role="separator" class="divider"></li>
+              <li><a href="/site">site</a></li>
+              <li><a href="/software">software</a></li>
+              <!--<li><a href="/scicom">scientific journalism</a></li> -->
+            </ul>
+          </li>
+
+          <!-- reviews -->
+          <li><a href="http://eve-reviews.tumblr.com/">reviews</a></li>
+
+        </ul>
+
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" id="tfSearch" placeholder="search...">
+          </div>
+          <button type="submit" class="btn btn-default" disabled onclick="alert(search);">submit</button>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+</header>
     <body>
-      <p> hello you found the about page </p>
+      <p> hello you found the about page! </p>
+        <h2 class="page-title">about me</h2>
+          <p class="about-page-description"> my name is sarah kearns and i have a
+            bachelors of science in biochemistry and a minor in mathematics
+          from the rochester institute of technology. <a href="http://www.rit.edu/">go tigers!</a>
+          currently, i am a first year in the chemical biology graduate program
+          at the university of michigan. <a href="http://www.chembio.umich.edu/">go wolverines!</a> </p>
+          <p> below, i have outlined my educational background and have provided my resume. </p>
+          <p>that being said, i promise i do a lot of stuff other than school:
+            i love to <a href="https://www.librarything.com/catalog/sarah-tonin/yourlibrary">read</a>,
+            go on hiking adventures, marvel at art and architecture, and drink craft beer! </p>
+          <p> you can also find me at the following social media pages:
+            <ul>
+              <li><a href="https://www.linkedin.com/in/sarah-kearns-806b0971">linkedin</a> because i'm professional</li>
+              <li><a href="http://eve-reviews.tumblr.com/">tumblr</a> because i have an educational science blog (see also: reviews)</li>
+              <li><a href="https://twitter.com/mes_etoiles">twitter</a> because it's fun! </li>
+            </ul>
+          </p>
+       <h2 class="page-title">education</h2>
+         <p> rochester institute of technology
+           <ul>
+             <li>bachelors in science: biochemistry </li>
+             <li>minor: mathematics </li>
+             <li>concentration: philosophy (undeclared) </li>
+             <li>gpa: </li>
+             <li>deans list: </li>
+           </ul>
+         </p>
+         <p> university of michigan
+           <ul>
+             <li> check back in a semester once i've accomplished something :p </li>
+           </ul>
+         </p>
+
     </body>
 
 </html>
